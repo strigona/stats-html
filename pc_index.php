@@ -1,6 +1,6 @@
 <?
   # vi: ts=2 sw=2 tw=120 syntax=php
-  # $Id: pc_index.php,v 1.10.2.3 2003/07/10 19:52:14 decibel Exp $
+  # $Id: pc_index.php,v 1.10.2.4 2004/03/11 21:18:24 nerf Exp $
 
   $title = "Overall Project Stats";
 
@@ -240,7 +240,7 @@ $bar_width = number_format(3*($per_searched),0);
 <A NAME="footnote"></A>
 <font size="-2">
 * The completion values are calculated in a separate stats run and may not be available at the same time as other values.
-In this case, the values from the previous day will be used.  This data is from <?=$ver_rundate?>.
+In this case, the values from the previous day will be used.  This data is from <?=$ver_rundate?>.  Note that this is only for stubs with leading marks totalling less than 70.
 </font>
 <p>
 		<? } ?>
